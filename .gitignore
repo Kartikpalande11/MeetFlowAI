@@ -1,0 +1,26 @@
+# Eclipse workspace
+.metadata/
+**/.metadata/
+
+# Frontend dependencies and build files
+**/node_modules/
+**/dist/
+
+# Backend build files
+**/target/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
